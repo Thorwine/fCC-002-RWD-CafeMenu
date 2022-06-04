@@ -17,12 +17,12 @@ body {
 
 .flavor {
   text-align: left;
-  width: 49%;
+  width: 75%;
 }
 
 .price {
   text-align: right;
-  width: 49%;
+  width: 25%;
 }
 
 /* The <p> elements are nested in an <article> element with the class attribute of 'item'.
