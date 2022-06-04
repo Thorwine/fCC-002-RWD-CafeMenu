@@ -14,3 +14,19 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.flavor {
+  text-align: left;
+  width: 49%;
+}
+
+.price {
+  text-align: right;
+  width: 49%;
+}
+
+/* The <p> elements are nested in an <article> element with the class attribute of 'item'.
+   You can style all the <p> elements nested anywhere in elements with a class named 'item' like this: */
+.item p {
+  display: inline-block;
+}
