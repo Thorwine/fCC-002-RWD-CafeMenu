@@ -1,3 +1,12 @@
+/* ---------------------------------------------------- */
+/* Type selectors */
+/* ---------------------------------------------------- */
+
+body {
+  font-family: sans-serif;
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
 h1,
 h2,
 p {
@@ -9,9 +18,26 @@ h2 {
   font-family: Impact, serif;
 }
 
-body {
-  font-family: sans-serif;
-  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+hr {
+  height: 3px;
+  background-color: brown;
+  border-color: brown;
+}
+
+/* ---------------------------------------------------- */
+/* Class selectors */
+/* ---------------------------------------------------- */
+
+.established {
+  font-style: italic;
 }
 
 .menu {
@@ -20,6 +46,7 @@ body {
   background-color: burlywood;
   margin-left: auto;
   margin-right: auto;
+  /* padding fuer alle 4 Seiten (left, right, top, bottom) */
   padding: 20px;
 }
 
@@ -27,15 +54,20 @@ body {
 .dessert {
   text-align: left;
   width: 75%;
+  /* INFO: background-color aktivieren fuer Debug! */
+  /* background-color: chocolate; */
 }
 
 .price {
   text-align: right;
   width: 25%;
+  /* INFO: background-color aktivieren fuer Debug! */
+  /* background-color: yellowgreen; */
 }
 
-/* The <p> elements are nested in an <article> element with the class attribute of 'item'.
-   You can style all the <p> elements nested anywhere in elements with a class named 'item' like this: */
 .item p {
   display: inline-block;
 }
+/* INFO: */
+/* The <p> elements are nested in an <article> element with the class attribute of "item". */
+/* You can style all the <p> elements nested anywhere in elements with a class named "item" like this: */
