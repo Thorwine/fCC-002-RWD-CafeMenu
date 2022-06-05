@@ -5,6 +5,7 @@
 body {
   font-family: sans-serif;
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  padding: 20px;
 }
 
 h1,
@@ -27,9 +28,18 @@ h2 {
 }
 
 hr {
-  height: 3px;
+  height: 2px;
   background-color: brown;
   border-color: brown;
+}
+
+a {
+  color: black;
+}
+
+/* FOOTER */
+footer {
+  font-size: 14px;
 }
 
 /* ---------------------------------------------------- */
@@ -67,7 +77,14 @@ hr {
 
 .item p {
   display: inline-block;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 /* INFO: */
 /* The <p> elements are nested in an <article> element with the class attribute of "item". */
 /* You can style all the <p> elements nested anywhere in elements with a class named "item" like this: */
+
+.bottom-line {
+  margin-top: 25px;
+}
